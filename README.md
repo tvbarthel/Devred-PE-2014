@@ -3,10 +3,15 @@ Devred-PE-2014
 
 A small experiment around the [Spring-Summer 2014 Devred Collection](http://www.devred.com/looks-saison-4893.r.html). The motivation behind this application was to develop a list view that can be used over another component that need touch events, like a [MapView](http://developer.android.com/reference/com/google/android/gms/maps/MapView.html) or a [PhotoView](https://github.com/chrisbanes/PhotoView).
 
-
 Disclaimer
 ==============
 We are not related to Devred in any form or by any means. We are just using the resources for promoting purpose only and to present our experiment in a real context. If you have any complaints, please contact us at tvbarthel[at]gmail.com
+
+TODO
+==============
+* Resize drawables.
+* Use density-specific resources.
+* and much more...
 
 License
 =====================
