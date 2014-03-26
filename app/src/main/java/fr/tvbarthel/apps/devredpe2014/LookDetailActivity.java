@@ -1,7 +1,6 @@
 package fr.tvbarthel.apps.devredpe2014;
 
 import android.app.Activity;
-import android.graphics.Point;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -49,11 +48,6 @@ public class LookDetailActivity extends Activity {
         mImageView = (ImageView) findViewById(R.id.look_detail_activity_look_image);
         mAttacher = new PhotoViewAttacher(mImageView);
 
-
-        Point size = new Point();
-        getWindowManager().getDefaultDisplay().getSize(size);
-
-
         Picasso.with(this).load(mLook.getLookResourceId()).skipMemoryCache().into(mImageView, new Callback() {
             @Override
             public void onSuccess() {
@@ -91,7 +85,6 @@ public class LookDetailActivity extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.look_detail, menu);
         return true;
