@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/row_look_rounded_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        tools:src="@drawable/r_look_1"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center" />
+
+    <View
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/look_selector"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

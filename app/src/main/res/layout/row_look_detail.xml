@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@color/white_translucent">
+
+    <ImageView
+        android:id="@+id/row_look_detail_image"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:scaleType="centerInside"
+        tools:src="@drawable/look_1_item_3"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/row_look_detail_image"
+        android:layout_toLeftOf="@+id/row_look_detail_price"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/grey_devred"
+        android:text="Veste Homme city coordonnable"
+        android:id="@+id/row_look_detail_title"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/row_look_detail_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:fontFamily="sans-serif-light"
+        android:textColor="@color/grey_devred"
+        android:text="159€99"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>
+
+
+

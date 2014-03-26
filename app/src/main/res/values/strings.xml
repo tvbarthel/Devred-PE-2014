@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Devred PE14</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Look 1 items -->
+    <string name="look_1_item_1_title">Veste homme city coordonnable</string>
+    <string name="look_1_item_1_price">159€99</string>
+    <string name="look_1_item_2_title">Chemise homme city</string>
+    <string name="look_1_item_2_price">23€99</string>
+    <string name="look_1_item_3_title">Cravate homme unie statin</string>
+    <string name="look_1_item_3_price">22€99</string>
+    <string name="look_1_item_4_title">Ceinture ville homme</string>
+    <string name="look_1_item_4_price">24€99</string>
+    <string name="look_1_item_5_title">Pantalon homme city coordonnable</string>
+    <string name="look_1_item_5_price">64€99</string>
+    <string name="look_1_item_6_title">Chaussures homme ville classiques</string>
+    <string name="look_1_item_6_price">79€99</string>
+
+    <!-- Look 2 items -->
+    <string name="look_2_item_1_title">Veste homme city coordonnable</string>
+    <string name="look_2_item_1_price">118€99</string>
+    <string name="look_2_item_2_title">Chemise homme city</string>
+    <string name="look_2_item_2_price">23€99</string>
+    <string name="look_2_item_3_title">Cravate homme statin unie</string>
+    <string name="look_2_item_3_price">14€99</string>
+    <string name="look_2_item_4_title">Pantalon homme city coordonnable</string>
+    <string name="look_2_item_4_price">48€99</string>
+    <string name="look_2_item_5_title">Chaussures homme ville classiques</string>
+    <string name="look_2_item_5_price">79€99</string>
+
+    <!-- Look 3 items -->
+    <string name="look_3_item_1_title">Veste homme city coordonnable</string>
+    <string name="look_3_item_1_price">90€99</string>
+    <string name="look_3_item_2_title">Gillet sans manches hommes city</string>
+    <string name="look_3_item_2_price">32€99</string>
+    <string name="look_3_item_3_title">Chemise homme city</string>
+    <string name="look_3_item_3_price">23€99</string>
+    <string name="look_3_item_4_title">Cravate micro pois</string>
+    <string name="look_3_item_4_price">22€99</string>
+    <string name="look_3_item_5_title">Ceinture ville homme</string>
+    <string name="look_3_item_5_price">24€99</string>
+    <string name="look_3_item_6_title">Pantalon homme city coordonnable</string>
+    <string name="look_3_item_6_price">41€99</string>
+    <string name="look_3_item_7_title">Chaussures homme ville classiques</string>
+    <string name="look_3_item_7_price">79€99</string>
+
+    <!-- Look 4 items -->
+    <string name="look_4_item_1_title">Veste homme city coordonnable</string>
+    <string name="look_4_item_1_price">129€99</string>
+    <string name="look_4_item_2_title">Gillet sans manches homme city</string>
+    <string name="look_4_item_2_price">49€99</string>
+    <string name="look_4_item_3_title">Chemise homme city</string>
+    <string name="look_4_item_3_price">27€99</string>
+    <string name="look_4_item_4_title">Pantalon homme city coordonnable</string>
+    <string name="look_4_item_4_price">54€99</string>
+    <string name="look_4_item_5_title">Chaussures homme ville classiques</string>
+    <string name="look_4_item_5_price">79€99</string>
+
+    <!-- Look 6 items -->
+    <string name="look_6_item_1_title">Tee shirt homme casual</string>
+    <string name="look_6_item_1_price">19€99</string>
+    <string name="look_6_item_2_title">Jean denim workwear destroy homme casual</string>
+    <string name="look_6_item_2_price">59€99</string>
+    <string name="look_6_item_3_title">Chaussure homme ville bi-matière</string>
+    <string name="look_6_item_3_price">59€49</string>
+
+    <!-- Look 7 items -->
+    <string name="look_7_item_1_title">Veste homme city</string>
+    <string name="look_7_item_1_price">129€99</string>
+    <string name="look_7_item_2_title">Cardigan boutonné point mousse</string>
+    <string name="look_7_item_2_price">34€99</string>
+    <string name="look_7_item_3_title">Chemise homme city</string>
+    <string name="look_7_item_3_price">23€99</string>
+    <string name="look_7_item_4_title">Ceinture homme cloûtée </string>
+    <string name="look_7_item_4_price">15€00</string>
+    <string name="look_7_item_5_title">Jean denim Homme Casual bleu</string>
+    <string name="look_7_item_5_price">44€99</string>
+    <string name="look_7_item_6_title">Chaussure homme ville bi-matière</string>
+    <string name="look_7_item_6_price">59€49</string>
+
+    <!-- Look 8 items -->
+    <string name="look_8_item_1_title">Blouson faux cuir homme casual</string>
+    <string name="look_8_item_1_price">99€99</string>
+    <string name="look_8_item_2_title">Débardeur maille boutonné</string>
+    <string name="look_8_item_2_price">29€99</string>
+    <string name="look_8_item_3_title">Chemise homme city</string>
+    <string name="look_8_item_3_price">34€99</string>
+    <string name="look_8_item_4_title">Cravate faux uni </string>
+    <string name="look_8_item_4_price">22€99</string>
+    <string name="look_8_item_5_title">Ceinture ville homme</string>
+    <string name="look_8_item_5_price">24€99</string>
+    <string name="look_8_item_6_title">Jean denim urban homme casual</string>
+    <string name="look_8_item_6_price">49€99</string>
+    <string name="look_8_item_7_title">Chaussures homme ville classiques</string>
+    <string name="look_8_item_7_price">79€99</string>
+
+    <!-- Look 9 items -->
+    <string name="look_9_item_1_title">Veste homme city coordonnable</string>
+    <string name="look_9_item_1_price">159€99</string>
+    <string name="look_9_item_2_title">Chemise homme city</string>
+    <string name="look_9_item_2_price">39€99</string>
+    <string name="look_9_item_3_title">Cravate rayée armure changeante</string>
+    <string name="look_9_item_3_price">22€99</string>
+    <string name="look_9_item_4_title">Ceinture homme casual</string>
+    <string name="look_9_item_4_price">29€99</string>
+    <string name="look_9_item_5_title">Jean denim workwear homme casual</string>
+    <string name="look_9_item_5_price">54€99</string>
+    <string name="look_9_item_6_title">Chaussure homme ville bi-matière</string>
+    <string name="look_9_item_6_price">59€49</string>
+
+    <!-- Look 10 items -->
+    <string name="look_10_item_1_title">Blouson cuir homme casual</string>
+    <string name="look_10_item_1_price">249€99</string>
+    <string name="look_10_item_2_title">Tee shirt homme casual</string>
+    <string name="look_10_item_2_price">13€99</string>
+    <string name="look_10_item_3_title">Jean denim workwear destroy homme casual</string>
+    <string name="look_10_item_3_price">59€99</string>
+    <string name="look_10_item_4_title">Chaussure homme ville bi-matière</string>
+    <string name="look_10_item_4_price">59€99</string>
+</resources>
