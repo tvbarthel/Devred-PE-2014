@@ -11,7 +11,7 @@
         android:scaleType="centerCrop"
         tools:src="@drawable/look_1" />
 
-    <fr.tvbarthel.apps.devredpe2014.MyListView
+    <fr.tvbarthel.apps.devredpe2014.ui.MyListView
         android:id="@+id/test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

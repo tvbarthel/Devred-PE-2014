@@ -1,4 +1,4 @@
-package fr.tvbarthel.apps.devredpe2014;
+package fr.tvbarthel.apps.devredpe2014.ui;
 
 
 import android.app.ActionBar;
@@ -7,6 +7,8 @@ import android.text.SpannableString;
 import android.text.Spanned;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.TypefaceSpan;
+
+import fr.tvbarthel.apps.devredpe2014.R;
 
 public class ActionBarHelper {
 

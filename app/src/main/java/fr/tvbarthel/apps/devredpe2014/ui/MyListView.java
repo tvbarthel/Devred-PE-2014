@@ -1,4 +1,4 @@
-package fr.tvbarthel.apps.devredpe2014;
+package fr.tvbarthel.apps.devredpe2014.ui;
 
 import android.content.Context;
 import android.util.AttributeSet;

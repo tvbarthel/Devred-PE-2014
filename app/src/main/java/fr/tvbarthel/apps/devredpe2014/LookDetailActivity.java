@@ -17,6 +17,8 @@ import com.squareup.picasso.Picasso;
 
 import fr.tvbarthel.apps.devredpe2014.model.Look;
 import fr.tvbarthel.apps.devredpe2014.model.LookItem;
+import fr.tvbarthel.apps.devredpe2014.ui.ActionBarHelper;
+import fr.tvbarthel.apps.devredpe2014.ui.LookItemAdapter;
 import uk.co.senab.photoview.PhotoViewAttacher;
 
 public class LookDetailActivity extends Activity {

@@ -18,6 +18,7 @@ import com.squareup.picasso.Picasso;
 
 import fr.tvbarthel.apps.devredpe2014.model.Look;
 import fr.tvbarthel.apps.devredpe2014.model.LookFactory;
+import fr.tvbarthel.apps.devredpe2014.ui.ActionBarHelper;
 
 public class MainActivity extends Activity {
 

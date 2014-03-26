@@ -1,4 +1,4 @@
-package fr.tvbarthel.apps.devredpe2014;
+package fr.tvbarthel.apps.devredpe2014.ui;
 
 import android.app.Service;
 import android.content.Context;
@@ -18,6 +18,7 @@ import com.squareup.picasso.Picasso;
 
 import java.util.List;
 
+import fr.tvbarthel.apps.devredpe2014.R;
 import fr.tvbarthel.apps.devredpe2014.model.LookItem;
 
 public class LookItemAdapter extends ArrayAdapter<LookItem> {
