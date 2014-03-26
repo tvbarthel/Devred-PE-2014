@@ -66,19 +66,16 @@ public class LookDetailActivity extends Activity {
         mListView.addHeaderView(headerView);
         final View contentView = findViewById(android.R.id.content);
         final int headerListHeight = getResources().getDimensionPixelSize(R.dimen.header_look_detail_height);
-        contentView.getViewTreeObserver().addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
+        contentView.getViewTreeObserver().addOnPreDrawListener(new ViewTreeObserver.OnPreDrawListener() {
             @Override
-            public void onGlobalLayout() {
+            public boolean onPreDraw() {
+                contentView.getViewTreeObserver().removeOnPreDrawListener(this);
                 int height = contentView.getMeasuredHeight();
                 int paddingTop = height - headerListHeight;
                 mListView.setPadding(mListView.getPaddingLeft(), paddingTop, mListView.getPaddingRight(),
                         mListView.getPaddingBottom());
                 mListView.setAdapter(adapter);
-                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    contentView.getViewTreeObserver().removeOnGlobalLayoutListener(this);
-                } else {
-                    contentView.getViewTreeObserver().removeGlobalOnLayoutListener(this);
-                }
+                return true;
             }
         });
     }
