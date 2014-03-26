@@ -10,7 +10,7 @@ import android.text.style.TypefaceSpan;
 
 import fr.tvbarthel.apps.devredpe2014.R;
 
-public class ActionBarHelper {
+public final class ActionBarHelper {
 
     public static void setDevredTitle(Context context, ActionBar actionBar) {
         if (actionBar != null) {
@@ -21,5 +21,9 @@ public class ActionBarHelper {
             title.setSpan(foregroundColorSpan, title.length() - 4, title.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
             actionBar.setTitle(title);
         }
+    }
+
+    // Non instantiable class.
+    private ActionBarHelper() {
     }
 }
