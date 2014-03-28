@@ -70,10 +70,17 @@ public class MainActivity extends Activity {
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
+        boolean isSelectionConsume;
+        switch (id) {
+            case R.id.action_licenses:
+                startActivity(new Intent(this, LicenseActivity.class));
+                isSelectionConsume = true;
+                break;
+
+            default:
+                isSelectionConsume = super.onOptionsItemSelected(item);
         }
-        return super.onOptionsItemSelected(item);
+        return isSelectionConsume;
     }
 
 

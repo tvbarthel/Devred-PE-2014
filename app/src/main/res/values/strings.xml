@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Devred PE14</string>
+    <string name="title_activity_license">Open source licenses</string>
     <string name="action_settings">Settings</string>
+    <string name="action_licenses">Open source licenses</string>
 
     <!-- Look 1 items -->
     <string name="look_1_item_1_title">Veste homme city coordonnable</string>
@@ -118,4 +121,5 @@
     <string name="look_10_item_3_price">59€99</string>
     <string name="look_10_item_4_title">Chaussure homme ville bi-matière</string>
     <string name="look_10_item_4_price">59€99</string>
+
 </resources>
