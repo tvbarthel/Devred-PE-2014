@@ -19,10 +19,21 @@
         <activity
             android:name="fr.tvbarthel.apps.devredpe2014.LookDetailActivity"
             android:label="@string/app_name"
-            android:parentActivityName="fr.tvbarthel.apps.devredpe2014.MainActivity"></activity>
+            android:parentActivityName="fr.tvbarthel.apps.devredpe2014.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
         <activity
             android:name="fr.tvbarthel.apps.devredpe2014.LicenseActivity"
-            android:label="@string/title_activity_license"></activity>
+            android:label="@string/title_activity_license"
+            android:parentActivityName="fr.tvbarthel.apps.devredpe2014.MainActivity">
+            <!-- Parent activity meta-data to support 4.0 and lower -->
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.myfirstapp.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
