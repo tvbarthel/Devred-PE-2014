@@ -11,8 +11,6 @@ TODO
 ==============
 * Resize drawables.
 * Use density-specific resources.
-* Add an about section.
-* Add a license section for the open source libraries that are used.
 * Add a section to report a problem.
 * and much more...
 
