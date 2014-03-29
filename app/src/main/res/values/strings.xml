@@ -3,7 +3,6 @@
 
     <string name="app_name">Devred PE14</string>
     <string name="title_activity_license">Open source licenses</string>
-    <string name="action_settings">Settings</string>
     <string name="action_licenses">Open source licenses</string>
     <string name="action_about">About</string>
 
