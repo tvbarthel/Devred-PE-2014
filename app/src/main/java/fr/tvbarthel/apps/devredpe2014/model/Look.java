@@ -10,16 +10,14 @@ public class Look implements Parcelable {
 
     private int mPreviewResourceId;
     private int mLookResourceId;
-    private String mTitle;
     private ArrayList<LookItem> mLookItems;
 
     public Look() {
     }
 
-    public Look(int previewResourceId, int lookResourceId, String title, ArrayList<LookItem> lookItems) {
+    public Look(int previewResourceId, int lookResourceId, ArrayList<LookItem> lookItems) {
         mPreviewResourceId = previewResourceId;
         mLookResourceId = lookResourceId;
-        mTitle = title;
         mLookItems = lookItems;
     }
 
@@ -43,14 +41,6 @@ public class Look implements Parcelable {
         mLookResourceId = lookResourceId;
     }
 
-    public String getTitle() {
-        return mTitle;
-    }
-
-    public void setTitle(String title) {
-        mTitle = title;
-    }
-
     public ArrayList<LookItem> getLookItems() {
         return mLookItems;
     }
@@ -68,14 +58,12 @@ public class Look implements Parcelable {
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeInt(mPreviewResourceId);
         dest.writeInt(mLookResourceId);
-        dest.writeString(mTitle);
         dest.writeTypedList(mLookItems);
     }
 
     private void readFromParcel(Parcel in) {
         mPreviewResourceId = in.readInt();
         mLookResourceId = in.readInt();
-        mTitle = in.readString();
         mLookItems = new ArrayList<LookItem>();
         in.readTypedList(mLookItems, LookItem.CREATOR);
     }
