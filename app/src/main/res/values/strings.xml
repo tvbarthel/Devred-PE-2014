@@ -5,6 +5,13 @@
     <string name="title_activity_license">Open source licenses</string>
     <string name="action_settings">Settings</string>
     <string name="action_licenses">Open source licenses</string>
+    <string name="action_about">About</string>
+
+    <!-- About Dialog -->
+    <string name="dialog_about_title">About</string>
+    <string name="dialog_about_content">A small experiment around the Spring-Summer 2014 Devred Collection. The motivation behind this application was to develop a list view that can be used over another component that need touch events, like a MapView or a PhotoView.</string>
+    <string name="dialog_about_made_in_france">Made in France</string>
+    <string name="dialog_about_disclaimer">Disclaimer: we are not related to Devred in any form or by any means. We are just using the resources for promoting purpose only and to present our experiment in a real context. If you have any complaints, please contact us at tvbarthel[at]gmail.com</string>
 
     <!-- Look 1 items -->
     <string name="look_1_item_1_title">Veste homme city coordonnable</string>

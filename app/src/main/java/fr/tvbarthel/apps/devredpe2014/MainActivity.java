@@ -16,6 +16,7 @@ import android.widget.ImageView;
 
 import com.squareup.picasso.Picasso;
 
+import fr.tvbarthel.apps.devredpe2014.fragments.AboutDialogFragment;
 import fr.tvbarthel.apps.devredpe2014.model.Look;
 import fr.tvbarthel.apps.devredpe2014.model.LookFactory;
 import fr.tvbarthel.apps.devredpe2014.ui.ActionBarHelper;
@@ -74,6 +75,11 @@ public class MainActivity extends Activity {
         switch (id) {
             case R.id.action_licenses:
                 startActivity(new Intent(this, LicenseActivity.class));
+                isSelectionConsume = true;
+                break;
+
+            case R.id.action_about:
+                (new AboutDialogFragment()).show(getFragmentManager(), "AboutDialogFragment");
                 isSelectionConsume = true;
                 break;
 

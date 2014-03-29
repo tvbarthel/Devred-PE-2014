@@ -6,4 +6,6 @@
     <dimen name="header_look_detail_height">45dp</dimen>
     <dimen name="header_look_initial_padding">85dp</dimen>
 
+    <dimen name="padding_default">8dp</dimen>
+
     </resources>
