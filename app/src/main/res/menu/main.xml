@@ -14,4 +14,10 @@
         android:orderInCategory="200"
         android:showAsAction="never" />
 
+    <item
+        android:id="@+id/action_report_a_problem"
+        android:title="@string/action_report_a_problem"
+        android:orderInCategory="300"
+        android:showAsAction="never" />
+
 </menu>

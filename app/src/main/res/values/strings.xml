@@ -5,6 +5,13 @@
     <string name="title_activity_license">Open source licenses</string>
     <string name="action_licenses">Open source licenses</string>
     <string name="action_about">About</string>
+    <string name="action_report_a_problem">Report a problem</string>
+
+    <!-- Report a problem -->
+    <string name="report_title">Send a report</string>
+    <string name="report_mail">tvbarthel@gmail.com</string>
+    <string name="report_default_subject">[Devred PE 2014] Problem report</string>
+    <string name="report_uri">mailto:%1$s?subject=%2$s</string>
 
     <!-- About Dialog -->
     <string name="dialog_about_title">About</string>

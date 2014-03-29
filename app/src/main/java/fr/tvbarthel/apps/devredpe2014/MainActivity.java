@@ -3,6 +3,7 @@ package fr.tvbarthel.apps.devredpe2014;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.Menu;
@@ -77,6 +78,17 @@ public class MainActivity extends Activity {
 
             case R.id.action_about:
                 (new AboutDialogFragment()).show(getFragmentManager(), "AboutDialogFragment");
+                isSelectionConsume = true;
+                break;
+
+            case R.id.action_report_a_problem:
+                String uriString = getString(R.string.report_uri,
+                        Uri.encode(getString(R.string.report_mail)),
+                        Uri.encode(getString(R.string.report_default_subject)));
+                Uri uri = Uri.parse(uriString);
+                Intent sendIntent = new Intent(Intent.ACTION_SENDTO);
+                sendIntent.setData(uri);
+                startActivity(sendIntent);
                 isSelectionConsume = true;
                 break;
 
