@@ -11,7 +11,6 @@ TODO
 ==============
 * Resize drawables.
 * Use density-specific resources.
-* Add a section to report a problem.
 * and much more...
 
 License
