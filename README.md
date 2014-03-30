@@ -1,3 +1,7 @@
+Disclaimer
+==============
+We are not related to Devred in any form or by any means. We are just using the resources for promoting purpose only and to present our experiment in a real context. If you have any complaints, please contact us at tvbarthel[at]gmail.com
+
 Devred-PE-2014
 ==============
 
@@ -24,10 +28,6 @@ To achieve what we wanted to do, we simply set some padding to the top of the Li
     }
 
 And that's it! Pretty simple, but we think that's a cool feature to use when the content needs space and touch interactivity at the same time =)
-
-Disclaimer
-==============
-We are not related to Devred in any form or by any means. We are just using the resources for promoting purpose only and to present our experiment in a real context. If you have any complaints, please contact us at tvbarthel[at]gmail.com
 
 TODO
 ==============
