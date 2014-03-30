@@ -7,6 +7,8 @@ Concept and result
 ==============
 ![concept and illustration](static/concept_and_illustration.png)
 
+###[Youtube video](https://www.youtube.com/watch?v=ko4aaXUqtMw)
+
 To achieve what we wanted to do, we simply set some padding to the top of the ListView and override onTouchEvent so that the method does not handle the motion event if it occurs "above" the first child.
 
     @Override
