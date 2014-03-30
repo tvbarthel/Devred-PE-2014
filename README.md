@@ -5,8 +5,7 @@ A small experiment around the [Spring-Summer 2014 Devred Collection](http://www.
 
 Concept and result
 ==============
-![concept](static/concept.png)
-![illustration](static/illustration.png)
+![concept and illustration](static/concept_and_illustration.png)
 
 To achieve what we wanted to do, we simply set some padding to the top of the ListView and override onTouchEvent so that the method does not handle the motion event if it occurs "above" the first child.
 
