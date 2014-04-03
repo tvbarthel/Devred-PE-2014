@@ -19,10 +19,8 @@ To achieve what we wanted to do, we simply set some padding to the top of the Li
     public boolean onTouchEvent(MotionEvent ev) {
         boolean handled = super.onTouchEvent(ev);
         View child = getChildAt(0);
-        if (child != null) {
-            if (ev.getY() < child.getY()) {
-                handled = false;
-            }
+        if (child != null && ev.getY() < child.getY()) {
+            handled = false;
         }
         return handled;
     }
