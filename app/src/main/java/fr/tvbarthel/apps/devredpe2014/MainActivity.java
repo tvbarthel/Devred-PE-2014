@@ -101,9 +101,6 @@ public class MainActivity extends Activity {
 
     private class MySimpleArrayAdapter extends ArrayAdapter<Look> {
 
-        class ViewHolder {
-            ImageView imageView;
-        }
 
         public MySimpleArrayAdapter(Context context, Look[] looks) {
             super(context, R.layout.row_look, looks);
@@ -111,23 +108,19 @@ public class MainActivity extends Activity {
 
         @Override
         public View getView(final int position, View convertView, ViewGroup parent) {
-            if (convertView == null) {
-                LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                convertView = inflater.inflate(R.layout.row_look, parent, false);
-                ImageView imageView = ((ImageView) convertView.findViewById(R.id.row_look_rounded_image));
+            ImageView imageView = (ImageView) convertView;
 
-                ViewHolder viewHolder = new ViewHolder();
-                viewHolder.imageView = imageView;
-                convertView.setTag(viewHolder);
+            if (imageView == null) {
+                LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                imageView = (ImageView) inflater.inflate(R.layout.row_look, parent, false);
             }
 
-            final ViewHolder viewHolder = (ViewHolder) convertView.getTag();
             Picasso.with(MainActivity.this)
                     .load(getItem(position).getPreviewResourceId())
                     .placeholder(R.drawable.look_placeholder)
-                    .into(viewHolder.imageView);
+                    .into(imageView);
 
-            return convertView;
+            return imageView;
         }
 
     }

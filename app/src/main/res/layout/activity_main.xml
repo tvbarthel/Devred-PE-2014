@@ -15,5 +15,6 @@
     android:scrollbars="none"
     android:paddingTop="?android:attr/actionBarSize"
     android:clipToPadding="false"
-    android:listSelector="@android:color/transparent"
+    android:listSelector="@drawable/look_selector"
+    android:drawSelectorOnTop="true"
     tools:context="fr.tvbarthel.apps.devredpe2014.MainActivity" />
